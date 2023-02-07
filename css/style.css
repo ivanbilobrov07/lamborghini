@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Impact", sans-serif;
+  src: url(../fonts/impact.woff2);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -13,8 +18,14 @@ a {
   text-decoration: none;
 }
 
-.container {
+.big-container {
   max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.container {
+  max-width: 920px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -67,5 +78,48 @@ body {
 }
 
 .promo-inner {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-size: 76px;
+  margin-bottom: 10px;
+  align-self: center;
+  margin-left: 8px;
+}
+
+.subtitle {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  border-bottom: 1px solid #040404;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.subtitle span {
+  display: block;
+  color: #9f6b08;
+  font-size: 34px;
+  padding: 10px 0;
+}
+
+.promo-text {
+  font-size: 16px;
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.promo-arrow {
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: 30px;
 }

@@ -175,3 +175,49 @@ body {
 .info-img {
   object-fit: cover;
 }
+
+.info-table {
+  flex-basis: 450px;
+  border-bottom: 1px solid #040404;
+  position: relative;
+  top: 20px;
+}
+
+.info-table::before {
+  content: "";
+  border-top: 1px solid #040404;
+  position: absolute;
+  width: 100%;
+  top: -20px;
+}
+
+.info-table td {
+  flex-basis: 450px;
+}
+
+.track {
+  background-image: url(../images/track-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  block-size: cover;
+}
+
+.track-inner {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+}
+
+.track-title {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-weight: 300;
+  font-size: 32px;
+}
+.track-text {
+  max-width: 435px;
+}
+
+.track-img {
+  margin: auto auto 90px auto;
+}

@@ -123,3 +123,55 @@ body {
   margin-top: auto;
   margin-bottom: 30px;
 }
+
+.info {
+  margin-bottom: 100px;
+}
+
+.info-part {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-part--first {
+  display: block;
+}
+
+.info-part--third {
+  padding-top: 66px;
+}
+
+.info-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.info-part--textbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.info-part--content {
+  flex-basis: 415px;
+}
+
+.info-part--second .info-text {
+  max-width: 352px;
+}
+
+.info-part--third .info-text {
+  max-width: 377px;
+}
+
+.info-text {
+  flex-basis: 440px;
+  margin-bottom: 30px;
+}
+
+.info-img {
+  object-fit: cover;
+}
